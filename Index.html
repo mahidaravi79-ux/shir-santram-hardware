@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shir Santram Hardware</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#f4f8ff;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(to right,#0d47a1,#1976d2);
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:38px;
+    font-weight:800;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* SECTION */
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+/* CARDS */
+.card{
+    background:white;
+    max-width:900px;
+    margin:20px auto;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* SERVICES GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.service{
+    background:#e3f2fd;
+    padding:20px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+/* BUTTONS */
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#1565c0;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#0d47a1;
+}
+
+/* CONTACT FORM */
+input, textarea{
+    width:90%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:12px 25px;
+    background:#1565c0;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0d47a1;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:25px;
+    text-align:center;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Shir Santram Hardware</h1>
+    <p>Pipe & Cement Supplies | Plumbing Materials & Hardware Supplies</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <div class="card">
+        We provide high-quality plumbing materials, pipes, fittings,
+        cement and all hardware supplies at best price.
+        Trusted by customers for quality and reliability.
+    </div>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="card grid">
+        <div class="service">PVC Pipes & Fittings</div>
+        <div class="service">Plumbing Materials</div>
+        <div class="service">Cement Supplies</div>
+        <div class="service">Construction Hardware</div>
+    </div>
+</section>
+
+<section>
+    <h2>Temple Highlight</h2>
+    <div class="card">
+        <img src="mandir.jpg" width="100%" style="border-radius:10px;">
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+
+    <a href="tel:+918401857306" class="btn">📞 Call Now</a>
+    <a href="https://wa.me/918401857306" class="btn">💬 WhatsApp</a>
+
+    <div class="card">
+        <h3>Send Message</h3>
+        <form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<section>
+    <h2>Location</h2>
+    <div class="card">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=YOUR-MAP-LINK"
+        width="100%" height="300" style="border:0;"
+        allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<footer>
+    Owner: Ravi Mahida <br>
+    📞 +91 8401857306
+</footer>
+
+</body>
+</html>
